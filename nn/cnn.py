@@ -2,6 +2,8 @@ import skimage.data
 import numpy
 import matplotlib
 import numpy_cnn
+from skimage import io
+
 
 """
 Convolutional neural network implementation using NumPy.
@@ -15,6 +17,7 @@ img = skimage.data.chelsea()
 
 # Converting the image into gray.
 img = skimage.color.rgb2gray(img)
+io.imshow(img)
 
 # First conv layer
 #l1_filter = numpy.random.rand(2,7,7)*20 # Preparing the filters randomly.
