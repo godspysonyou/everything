@@ -1,0 +1,6 @@
+n, k = map(int,input().split())
+gaoList = list(map(int,input().split()))
+num = sum(gaoList)
+maxvalue = max(gaoList)
+t = gaoList.index(maxvalue)
+print(t)
