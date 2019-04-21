@@ -1,4 +1,4 @@
-from math import log
+from mathwork import log
 
 
 def calcShannonEnt(dataSet):  # 信息熵，另一种是基尼不纯度

@@ -11,7 +11,7 @@ from __future__ import print_function
 import heapq
 import itertools
 import operator
-import math
+import mathwork
 from collections import deque
 from functools import wraps
 
@@ -364,7 +364,7 @@ class KDNode(Node):
         Squared distance at the given axis between
         the current Node and the given point
         """
-        return math.pow(self.data[axis] - point[axis], 2)
+        return mathwork.pow(self.data[axis] - point[axis], 2)
 
 
     def dist(self, point):

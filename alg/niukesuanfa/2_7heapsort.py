@@ -1,4 +1,4 @@
-import math
+import mathwork
 def heapAdjust(A,i,size):
     # 对所有的父亲节点
     if i<size/2:

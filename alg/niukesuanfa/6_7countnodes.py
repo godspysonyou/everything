@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-import math
+import mathwork
 class TreeNode:
     def __init__(self, x):
         self.val = x
